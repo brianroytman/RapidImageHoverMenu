@@ -72,7 +72,7 @@ export default class MenuItem {
             // hide the image element
             this.hideImage();
         };
-        
+
         this.DOM.el.addEventListener('mouseenter', this.mouseenterFn);
         this.DOM.el.addEventListener('mouseleave', this.mouseleaveFn);
     }
@@ -81,7 +81,7 @@ export default class MenuItem {
         // kill any current tweens
         gsap.killTweensOf(this.DOM.revealInner);
         gsap.killTweensOf(this.DOM.revealImage);
-        
+
         this.tl = gsap.timeline({
             onStart: () => {
                 // show the image element
@@ -169,7 +169,7 @@ export default class MenuItem {
         this.animatableProperties.ty.previous = this.firstRAFCycle ? this.animatableProperties.ty.current : lerp(this.animatableProperties.ty.previous, this.animatableProperties.ty.current, this.animatableProperties.ty.amt);
         this.animatableProperties.rotation.previous = this.firstRAFCycle ? this.animatableProperties.rotation.current : lerp(this.animatableProperties.rotation.previous, this.animatableProperties.rotation.current, this.animatableProperties.rotation.amt);
         this.animatableProperties.brightness.previous = this.firstRAFCycle ? this.animatableProperties.brightness.current : lerp(this.animatableProperties.brightness.previous, this.animatableProperties.brightness.current, this.animatableProperties.brightness.amt);
-        
+
         // set styles
         gsap.set(this.DOM.reveal, {
             x: this.animatableProperties.tx.previous,

@@ -7,7 +7,7 @@ export const preloader = selector => {
         const imgwrap = document.createElement('div');
         imgwrap.style.visibility = 'hidden';
         body.appendChild(imgwrap);
-        
+
         [...document.querySelectorAll(selector)].forEach(el => {
             const imgEl = document.createElement('img');
             imgEl.style.width = 0;

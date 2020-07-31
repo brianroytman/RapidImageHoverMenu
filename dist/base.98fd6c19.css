@@ -226,8 +226,8 @@ a:focus {
 .hover-reveal {
 	position: absolute;
 	z-index: -1;
-	width: 220px;
-	height: 320px;
+	width: 250px;
+	height: 250px;
 	top: 0;
 	left: 0;
 	pointer-events: none;
@@ -327,24 +327,24 @@ a:focus {
 
 /*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
 html.has-scroll-smooth {
-	overflow: hidden; 
+	overflow: hidden;
 }
-  
+
 html.has-scroll-dragging {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none; 
+	user-select: none;
 }
-  
+
 .has-scroll-smooth body {
-	overflow: hidden; 
+	overflow: hidden;
 }
-  
+
 .has-scroll-smooth [data-scroll-container] {
-	min-height: 100vh; 
+	min-height: 100vh;
 }
-  
+
 .c-scrollbar {
 	position: absolute;
 	right: 0;
@@ -353,15 +353,15 @@ html.has-scroll-dragging {
 	height: 100vh;
 	transform-origin: center right;
 	transition: transform 0.3s, opacity 0.3s;
-	opacity: 0; 
+	opacity: 0;
 }
 .c-scrollbar:hover {
-	transform: scaleX(1.45); 
+	transform: scaleX(1.45);
 }
 .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
-	opacity: 1; 
+	opacity: 1;
 }
-  
+
 .c-scrollbar_thumb {
 	position: absolute;
 	top: 0;
@@ -372,9 +372,17 @@ html.has-scroll-dragging {
 	border-radius: 10px;
 	margin: 2px;
 	cursor: -webkit-grab;
-	cursor: grab; 
+	cursor: grab;
 }
 .has-scroll-dragging .c-scrollbar_thumb {
 	cursor: -webkit-grabbing;
-	cursor: grabbing; 
+	cursor: grabbing;
 }
+
+.textshadow .blurry-text {
+   text-shadow: 0 0 32px white;
+   color: transparent;
+}
+
+
+/*# sourceMappingURL=/base.98fd6c19.css.map */

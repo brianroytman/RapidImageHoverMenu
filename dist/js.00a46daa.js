@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"TNS6":[function(require,module,exports) {
+})({"../node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4022,7 +4022,7 @@ exports.Power3 = Power3;
 exports.Power2 = Power2;
 exports.Power1 = Power1;
 exports.Power0 = Power0;
-},{}],"bp4Z":[function(require,module,exports) {
+},{}],"../node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5430,7 +5430,7 @@ _gsapCore.gsap.utils.checkPrefix = _checkPropPrefix;
 });
 
 _gsapCore.gsap.registerPlugin(CSSPlugin);
-},{"./gsap-core.js":"TNS6"}],"TpQl":[function(require,module,exports) {
+},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js"}],"../node_modules/gsap/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5580,7 +5580,7 @@ TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
 exports.TweenMax = TweenMaxWithCSS;
 exports.default = exports.gsap = gsapWithCSS;
-},{"./gsap-core.js":"TNS6","./CSSPlugin.js":"bp4Z"}],"MgTz":[function(require,module,exports) {
+},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js","./CSSPlugin.js":"../node_modules/gsap/CSSPlugin.js"}],"js/utils.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5629,7 +5629,7 @@ var getMousePos = function getMousePos(e) {
 };
 
 exports.getMousePos = getMousePos;
-},{}],"LMRJ":[function(require,module,exports) {
+},{}],"js/cursor.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5722,7 +5722,7 @@ var Cursor = /*#__PURE__*/function () {
 }();
 
 exports.default = Cursor;
-},{"gsap":"TpQl","./utils":"MgTz"}],"BQvw":[function(require,module,exports) {
+},{"gsap":"../node_modules/gsap/index.js","./utils":"js/utils.js"}],"../node_modules/ev-emitter/ev-emitter.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 /**
@@ -5838,7 +5838,7 @@ return EvEmitter;
 
 }));
 
-},{}],"lc7f":[function(require,module,exports) {
+},{}],"../node_modules/imagesloaded/imagesloaded.js":[function(require,module,exports) {
 var define;
 /*!
  * imagesLoaded v4.1.4
@@ -6218,7 +6218,7 @@ return ImagesLoaded;
 
 });
 
-},{"ev-emitter":"BQvw"}],"BeZ8":[function(require,module,exports) {
+},{"ev-emitter":"../node_modules/ev-emitter/ev-emitter.js"}],"js/preloader.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6265,7 +6265,7 @@ var preloader = function preloader(selector) {
 };
 
 exports.preloader = preloader;
-},{"imagesloaded":"lc7f"}],"ez7q":[function(require,module,exports) {
+},{"imagesloaded":"../node_modules/imagesloaded/imagesloaded.js"}],"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -8840,70 +8840,25 @@ var _default$3 = /*#__PURE__*/function () {
 
 var _default2 = _default$3;
 exports.default = _default2;
-},{}],"NJSX":[function(require,module,exports) {
-module.exports = "1.dc197a9a.jpg";
-},{}],"i4z2":[function(require,module,exports) {
-module.exports = "10.5e22fdc3.jpg";
-},{}],"PKe7":[function(require,module,exports) {
-module.exports = "11.a56b8aeb.jpg";
-},{}],"CS4A":[function(require,module,exports) {
-module.exports = "12.b5a57fd7.jpg";
-},{}],"uYgX":[function(require,module,exports) {
-module.exports = "13.3858c623.jpg";
-},{}],"hIAS":[function(require,module,exports) {
-module.exports = "14.c732d2b3.jpg";
-},{}],"TjQ6":[function(require,module,exports) {
-module.exports = "15.61b13bcc.jpg";
-},{}],"AgKW":[function(require,module,exports) {
-module.exports = "16.39461312.jpg";
-},{}],"oxYq":[function(require,module,exports) {
-module.exports = "17.7c008703.jpg";
-},{}],"f9Jt":[function(require,module,exports) {
-module.exports = "18.81a1401f.jpg";
-},{}],"BVGL":[function(require,module,exports) {
-module.exports = "19.6d803788.jpg";
-},{}],"dFor":[function(require,module,exports) {
-module.exports = "2.3ca6bb44.jpg";
-},{}],"ctUQ":[function(require,module,exports) {
-module.exports = "20.b400b781.jpg";
-},{}],"P8tY":[function(require,module,exports) {
-module.exports = "3.a433b89d.jpg";
-},{}],"kPmT":[function(require,module,exports) {
-module.exports = "4.c6d96be5.jpg";
-},{}],"VqBz":[function(require,module,exports) {
-module.exports = "5.689b68fd.jpg";
-},{}],"gtVS":[function(require,module,exports) {
-module.exports = "6.e96dcfff.jpg";
-},{}],"HYBC":[function(require,module,exports) {
-module.exports = "7.2d66e3ed.jpg";
-},{}],"KW6U":[function(require,module,exports) {
-module.exports = "8.f4323fe0.jpg";
-},{}],"xNmy":[function(require,module,exports) {
-module.exports = "9.c9233dac.jpg";
-},{}],"m7Bz":[function(require,module,exports) {
+},{}],"img/1.jpg":[function(require,module,exports) {
+module.exports = "/1.dc197a9a.jpg";
+},{}],"img/2.jpg":[function(require,module,exports) {
+module.exports = "/2.3ca6bb44.jpg";
+},{}],"img/3.jpg":[function(require,module,exports) {
+module.exports = "/3.a433b89d.jpg";
+},{}],"img/4.jpg":[function(require,module,exports) {
+module.exports = "/4.c6d96be5.jpg";
+},{}],"img/5.jpg":[function(require,module,exports) {
+module.exports = "/5.689b68fd.jpg";
+},{}],"img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "1": require("./1.jpg"),
   "2": require("./2.jpg"),
   "3": require("./3.jpg"),
   "4": require("./4.jpg"),
-  "5": require("./5.jpg"),
-  "6": require("./6.jpg"),
-  "7": require("./7.jpg"),
-  "8": require("./8.jpg"),
-  "9": require("./9.jpg"),
-  "10": require("./10.jpg"),
-  "11": require("./11.jpg"),
-  "12": require("./12.jpg"),
-  "13": require("./13.jpg"),
-  "14": require("./14.jpg"),
-  "15": require("./15.jpg"),
-  "16": require("./16.jpg"),
-  "17": require("./17.jpg"),
-  "18": require("./18.jpg"),
-  "19": require("./19.jpg"),
-  "20": require("./20.jpg")
+  "5": require("./5.jpg")
 };
-},{"./1.jpg":"NJSX","./10.jpg":"i4z2","./11.jpg":"PKe7","./12.jpg":"CS4A","./13.jpg":"uYgX","./14.jpg":"hIAS","./15.jpg":"TjQ6","./16.jpg":"AgKW","./17.jpg":"oxYq","./18.jpg":"f9Jt","./19.jpg":"BVGL","./2.jpg":"dFor","./20.jpg":"ctUQ","./3.jpg":"P8tY","./4.jpg":"kPmT","./5.jpg":"VqBz","./6.jpg":"gtVS","./7.jpg":"HYBC","./8.jpg":"KW6U","./9.jpg":"xNmy"}],"Jy3L":[function(require,module,exports) {
+},{"./1.jpg":"img/1.jpg","./2.jpg":"img/2.jpg","./3.jpg":"img/3.jpg","./4.jpg":"img/4.jpg","./5.jpg":"img/5.jpg"}],"js/menuItem.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9159,7 +9114,7 @@ var MenuItem = /*#__PURE__*/function () {
 }();
 
 exports.default = MenuItem;
-},{"gsap":"TpQl","./utils":"MgTz","../img/*.jpg":"m7Bz"}],"i0CD":[function(require,module,exports) {
+},{"gsap":"../node_modules/gsap/index.js","./utils":"js/utils.js","../img/*.jpg":"img/*.jpg"}],"js/menu.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9203,9 +9158,9 @@ var Menu = /*#__PURE__*/function () {
     }; // the menu item elements (<a>)
 
     this.DOM.menuItems = this.DOM.el.querySelectorAll('.menu__item'); // menu item properties that will animate as we move the mouse around the menu
-    // we will be using interpolation to achieve smooth animations. 
-    // the “previous” and “current” values are the values to interpolate. 
-    // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment. 
+    // we will be using interpolation to achieve smooth animations.
+    // the “previous” and “current” values are the values to interpolate.
+    // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment.
     // the amt is the amount to interpolate.
 
     this.animatableProperties = {
@@ -9269,7 +9224,7 @@ var Menu = /*#__PURE__*/function () {
 }();
 
 exports.default = Menu;
-},{"gsap":"TpQl","./menuItem":"Jy3L"}],"QvaY":[function(require,module,exports) {
+},{"gsap":"../node_modules/gsap/index.js","./menuItem":"js/menuItem.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 var _cursor = _interopRequireDefault(require("./cursor"));
@@ -9296,4 +9251,209 @@ var menuEl = document.querySelector('.menu'); // preload the images set as data 
 
   new _menu.default(menuEl);
 });
-},{"./cursor":"LMRJ","./preloader":"BeZ8","locomotive-scroll":"ez7q","./menu":"i0CD"}]},{},["QvaY"], null)
+},{"./cursor":"js/cursor.js","./preloader":"js/preloader.js","locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js","./menu":"js/menu.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var global = arguments[3];
+var OVERLAY_ID = '__parcel__error__overlay__';
+var OldModule = module.bundle.Module;
+
+function Module(moduleName) {
+  OldModule.call(this, moduleName);
+  this.hot = {
+    data: module.bundle.hotData,
+    _acceptCallbacks: [],
+    _disposeCallbacks: [],
+    accept: function (fn) {
+      this._acceptCallbacks.push(fn || function () {});
+    },
+    dispose: function (fn) {
+      this._disposeCallbacks.push(fn);
+    }
+  };
+  module.bundle.hotData = null;
+}
+
+module.bundle.Module = Module;
+var checkedAssets, assetsToAccept;
+var parent = module.bundle.parent;
+
+if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
+  var hostname = "" || location.hostname;
+  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63158" + '/');
+
+  ws.onmessage = function (event) {
+    checkedAssets = {};
+    assetsToAccept = [];
+    var data = JSON.parse(event.data);
+
+    if (data.type === 'update') {
+      var handled = false;
+      data.assets.forEach(function (asset) {
+        if (!asset.isNew) {
+          var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
+
+          if (didAccept) {
+            handled = true;
+          }
+        }
+      }); // Enable HMR for CSS by default.
+
+      handled = handled || data.assets.every(function (asset) {
+        return asset.type === 'css' && asset.generated.js;
+      });
+
+      if (handled) {
+        console.clear();
+        data.assets.forEach(function (asset) {
+          hmrApply(global.parcelRequire, asset);
+        });
+        assetsToAccept.forEach(function (v) {
+          hmrAcceptRun(v[0], v[1]);
+        });
+      } else if (location.reload) {
+        // `location` global exists in a web worker context but lacks `.reload()` function.
+        location.reload();
+      }
+    }
+
+    if (data.type === 'reload') {
+      ws.close();
+
+      ws.onclose = function () {
+        location.reload();
+      };
+    }
+
+    if (data.type === 'error-resolved') {
+      console.log('[parcel] ✨ Error resolved');
+      removeErrorOverlay();
+    }
+
+    if (data.type === 'error') {
+      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
+      removeErrorOverlay();
+      var overlay = createErrorOverlay(data);
+      document.body.appendChild(overlay);
+    }
+  };
+}
+
+function removeErrorOverlay() {
+  var overlay = document.getElementById(OVERLAY_ID);
+
+  if (overlay) {
+    overlay.remove();
+  }
+}
+
+function createErrorOverlay(data) {
+  var overlay = document.createElement('div');
+  overlay.id = OVERLAY_ID; // html encode message and stack trace
+
+  var message = document.createElement('div');
+  var stackTrace = document.createElement('pre');
+  message.innerText = data.error.message;
+  stackTrace.innerText = data.error.stack;
+  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
+  return overlay;
+}
+
+function getParents(bundle, id) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return [];
+  }
+
+  var parents = [];
+  var k, d, dep;
+
+  for (k in modules) {
+    for (d in modules[k][1]) {
+      dep = modules[k][1][d];
+
+      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
+        parents.push(k);
+      }
+    }
+  }
+
+  if (bundle.parent) {
+    parents = parents.concat(getParents(bundle.parent, id));
+  }
+
+  return parents;
+}
+
+function hmrApply(bundle, asset) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return;
+  }
+
+  if (modules[asset.id] || !bundle.parent) {
+    var fn = new Function('require', 'module', 'exports', asset.generated.js);
+    asset.isNew = !modules[asset.id];
+    modules[asset.id] = [fn, asset.deps];
+  } else if (bundle.parent) {
+    hmrApply(bundle.parent, asset);
+  }
+}
+
+function hmrAcceptCheck(bundle, id) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return;
+  }
+
+  if (!modules[id] && bundle.parent) {
+    return hmrAcceptCheck(bundle.parent, id);
+  }
+
+  if (checkedAssets[id]) {
+    return;
+  }
+
+  checkedAssets[id] = true;
+  var cached = bundle.cache[id];
+  assetsToAccept.push([bundle, id]);
+
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    return true;
+  }
+
+  return getParents(global.parcelRequire, id).some(function (id) {
+    return hmrAcceptCheck(global.parcelRequire, id);
+  });
+}
+
+function hmrAcceptRun(bundle, id) {
+  var cached = bundle.cache[id];
+  bundle.hotData = {};
+
+  if (cached) {
+    cached.hot.data = bundle.hotData;
+  }
+
+  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
+    cached.hot._disposeCallbacks.forEach(function (cb) {
+      cb(bundle.hotData);
+    });
+  }
+
+  delete bundle.cache[id];
+  bundle(id);
+  cached = bundle.cache[id];
+
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    cached.hot._acceptCallbacks.forEach(function (cb) {
+      cb();
+    });
+
+    return true;
+  }
+}
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
+//# sourceMappingURL=/js.00a46daa.js.map

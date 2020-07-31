@@ -8,9 +8,9 @@ export default class Menu {
         // the menu item elements (<a>)
         this.DOM.menuItems = this.DOM.el.querySelectorAll('.menu__item');
         // menu item properties that will animate as we move the mouse around the menu
-        // we will be using interpolation to achieve smooth animations. 
-        // the “previous” and “current” values are the values to interpolate. 
-        // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment. 
+        // we will be using interpolation to achieve smooth animations.
+        // the “previous” and “current” values are the values to interpolate.
+        // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment.
         // the amt is the amount to interpolate.
         this.animatableProperties = {
             // translationX

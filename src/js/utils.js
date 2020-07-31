@@ -19,7 +19,7 @@ const getMousePos = (e) => {
         posx = e.clientX + body.scrollLeft + document.documentElement.scrollLeft;
         posy = e.clientY + body.scrollTop + document.documentElement.scrollTop;
     }
-    
+
     return { x : posx, y : posy }
 };
 
